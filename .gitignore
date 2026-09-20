@@ -1,0 +1,9 @@
+# 本地环境与密钥，任何情况下不入库
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+flash/*/data/
+.DS_Store
+__pycache__/
