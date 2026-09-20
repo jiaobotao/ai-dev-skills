@@ -32,7 +32,7 @@
 ### Claude Code（本地手动安装）
 
 ```bash
-git clone <本仓库地址> ~/ai-dev-skills   # 私有仓库，用你的 SSH 地址
+git clone https://github.com/jiaobotao/ai-dev-skills.git ~/ai-dev-skills   # 私有仓库，需你的 GitHub 账号有权限
 mkdir -p ~/.claude/skills
 cp -R ~/ai-dev-skills/sdd-ai-dev-pipeline ~/.claude/skills/
 cp -R ~/ai-dev-skills/fde-flash-demo     ~/.claude/skills/
